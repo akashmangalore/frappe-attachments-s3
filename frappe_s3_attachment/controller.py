@@ -127,7 +127,6 @@ class S3Operations(object):
                     file_path, self.BUCKET, key,
                     ExtraArgs={
                         "ContentType": content_type,
-                        "ACL": 'public-read',
                         "Metadata": {
                             "ContentType": content_type,
 
